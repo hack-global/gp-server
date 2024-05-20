@@ -1,5 +1,11 @@
 module.exports = class MovieController {
-  static getAllMovies(req, res) {
-    // ..
+
+  static async getAllMovies(req, res) {
+    try {
+      // ..
+    } catch (error) {
+      // ..
+    }
+
   }
 };

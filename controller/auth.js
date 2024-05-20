@@ -6,4 +6,12 @@ module.exports = class AuthController {
       // ..
     }
   }
+
+  static async login(req, res) {
+    try {
+      // ..
+    } catch (error) {
+      // ..
+    }
+  }
 };
